@@ -1,0 +1,31 @@
+@import url(../reindeer/styles.css);
+
+.v-gridlayout-fakeheader {
+    margin: 0px;
+}
+.v-gridlayout-caption {
+  background-color: black;
+}
+.v-gridlayout-filter {
+  background-color: black;
+}
+.v-gridlayout-caption .v-gridlayout-margin {
+    padding: 1px 1px 0px 1px;
+}
+.v-gridlayout-filter .v-gridlayout-margin {
+    padding: 1px 1px 1px 1px;
+}
+.v-gridlayout-fakeheader > div > div > div {
+    padding: 0px 1px 0px 1px;
+}
+.v-gridlayout-caption > div > div > div {
+    background: #CFCFCF;
+}
+.v-gridlayout-filter > div > div > div {
+    background: #8A8A8A;
+}
+.v-gridlayout-fakeheader .v-label {
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+}
